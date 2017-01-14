@@ -1,0 +1,86 @@
+/*Imports the fonts used in this assignment from the GoogleWebFonts database*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Droid+Sans');)
+
+/*Is the container that allows the formatting and style of the pages to be changed and made into the style I wanted. Made using the W3Schools tutorials*/
+/*CSS Validator found errors here that I did not understand, this code is doing what I want it to do, as according to the W3Schools tutorials? therefore no
+changes were made, as the errors didn't seem to be actual errors*/
+.flex-container {
+	display: -webkit-flex;
+	display: flex;  
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.flex-container > * {
+	padding: 15px;
+	-webkit-flex: 1 100%;
+	flex: 1 100%;
+}
+
+/*Generic styles and stylings for the Header and Text classes that are used in the assignment*/
+header {
+	color: white;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	background: #8c8c8c;
+}
+
+bulkTezt {
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+}
+
+<!--Following styles all allow the transforming of the image on the Index page to take place.-->
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+	height: auto;
+	display: block;
+	width: 100%
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #8c8c8c;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Droid Sans', sans-serif;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	background: #8c8c8c;
+}
+
+.nav ul {
+	background:#bfbfbf;
+	text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;
+	list-style-type: none;
+	padding: 0;
+}
