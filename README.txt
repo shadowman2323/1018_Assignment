@@ -39,8 +39,13 @@ Main Text 	- Droid Sans
 
 --- References ---
 	http://www.w3schools.com/ 
-	I used w3schools to reference and check the syntax of a lot of my code. Given the depth of their tutorials i found it to be a very useful tool for 
-	checking and adapting my code to fit current standards and ideals.
+	I used w3schools to reference and check the syntax of a lot of my code. Given the depth of their tutorials i found it to be a very useful tool for checking and adapting my code to fit current standards and ideals. 
+	
+	http://www.w3schools.com/html/html_images.asp
+	I mainly used it to learn how to make images change as you roll over them. I went through their code, made sure i understood it and could replicate it if asked and then adapted it for this project. 
+	
+	http://www.w3schools.com/css/css3_flexbox.asp
+	I also used it to figure out how the Flexbox system works in HTML. As i had never used this before I went through their tutorials to figure it out and again make sure I understood exactly what I was doing with it. This did influence some of my design choices for the website as I really liked the style they made with the flexboxes. I felt it was very professional and fitting for my CV, as such I adapted and mimicked in some ways their design, but made changes to make it my own and not be a straight rip.
 	
 	Module resources available on NILE
 	I used the lesson slides and tutorials to great length to expand and refine my knowledge of HTML and CSS. They were greatly helpful in walking me 
